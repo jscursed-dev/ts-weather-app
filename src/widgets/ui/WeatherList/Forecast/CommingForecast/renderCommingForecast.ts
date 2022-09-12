@@ -1,4 +1,4 @@
-import { Forecast } from "../models/Forecast";
+import { Forecast } from "../../../../../entities/Forecast";
 
 const daysOfWeek: string[] = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 

@@ -1,5 +1,5 @@
-import { Forecast } from "../../entities/Forecast/models/Forecast";
-import { WeatherAPIResponse } from "../models/APIResponses";
+import { Forecast } from "../Forecast";
+import { WeatherAPIResponse } from "../";
 
 export const formatFiveDays = (response: WeatherAPIResponse): Forecast[] => {
   const daysForecast = new Array<Forecast>();

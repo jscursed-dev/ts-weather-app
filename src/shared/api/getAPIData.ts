@@ -1,7 +1,5 @@
 export const getAPIData = async (url: URL): Promise<Response> => {
-  let data: Response;
-
-  data = await fetch(url).then((data) => data);
+  const data: Response = await fetch(url).then((data) => data);
 
   if (data.status !== 200) {
     const errorMessage = `API fetch failed. Code: ${data.status}`;

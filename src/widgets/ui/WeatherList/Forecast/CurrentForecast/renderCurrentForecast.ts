@@ -1,4 +1,4 @@
-import { Forecast } from "../models/Forecast";
+import { Forecast } from "../../../../../entities/Forecast";
 
 export const generateCurrentForecast = (forecast: Forecast): string => {
   return `<div class="weather_actual">

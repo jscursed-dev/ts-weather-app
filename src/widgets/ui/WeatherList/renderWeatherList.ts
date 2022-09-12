@@ -1,8 +1,5 @@
-import {
-  generateCommingForecast,
-  generateCurrentForecast,
-} from "../../entities/Forecast";
-import { Forecast } from "../../entities/Forecast/models";
+import { generateCommingForecast, generateCurrentForecast } from "./Forecast";
+import { Forecast } from "../../../entities";
 
 export const renderWeatherList = (
   container: HTMLElement,
