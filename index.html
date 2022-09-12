@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/app-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/app/styles/index.scss" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="app">
+      <form>
+        <input
+          type="text"
+          placeholder="City name"
+          name="searchbar"
+          class="searchbar__input"
+        />
+      </form>
+      <div class="weatherList"></div>
+    </div>
+
+    <script type="module" src="./src/app/init.ts"></script>
+  </body>
+</html>

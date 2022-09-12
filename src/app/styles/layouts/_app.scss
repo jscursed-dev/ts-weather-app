@@ -1,0 +1,13 @@
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  background: $basicBackgroundColor;
+
+  font-family: "Poppins";
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}

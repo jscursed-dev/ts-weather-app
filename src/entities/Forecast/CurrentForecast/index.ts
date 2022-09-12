@@ -1,0 +1,1 @@
+export { generateCurrentForecast } from "./renderCurrentForecast";

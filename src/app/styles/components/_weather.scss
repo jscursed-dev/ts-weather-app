@@ -1,0 +1,40 @@
+.weather {
+  display: grid;
+  align-items: center;
+  padding: 10px 15px;
+  grid-template-columns: 60px 80px 180px auto;
+}
+
+.weather_actual {
+  @extend .weather;
+  padding: 20px 30px;
+  background-color: $dataContainerHeaderColor;
+  grid-template-columns: 136px auto auto;
+}
+
+.weather_actual__text {
+  margin-bottom: 0.2em;
+}
+
+.weather_actual__text_big {
+  @extend .weather_actual__text;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.weather_actual__text_bold {
+  @extend .weather_actual__text;
+  font-weight: 600;
+}
+
+.weather__icon {
+  img {
+    width: 70px;
+  }
+}
+
+.weather_actual__icon {
+  img {
+    width: 100px;
+  }
+}

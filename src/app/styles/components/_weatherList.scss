@@ -1,0 +1,10 @@
+.weatherList {
+  overflow: hidden;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 6px;
+  background-color: $dataContainerColor;
+
+  color: white;
+  font-family: "Poppins";
+}

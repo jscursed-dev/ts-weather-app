@@ -1,0 +1,1 @@
+export { getAPIData } from "./getAPIData";

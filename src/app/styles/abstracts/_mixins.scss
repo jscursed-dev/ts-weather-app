@@ -1,0 +1,44 @@
+/* @mixin media($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin ultraWide() {
+  @include media($ultraWide) {
+    @content;
+  }
+}
+
+@mixin regularWidth() {
+  @include media($regularWidth) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @include media($tablet) {
+    @content;
+  }
+}
+
+@mixin tabletPortrait() {
+  @include media($tabletPortrait) {
+    @content;
+  }
+}
+
+@mixin smartphones() {
+  @include media($smartphones) {
+    @content;
+  }
+}*/
+
+@mixin font-face($font-family, $font-style: normal, $font-weight: 400, $path) {
+  @font-face {
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    src: url($path);
+  }
+}
